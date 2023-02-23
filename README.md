@@ -4,6 +4,17 @@ Dieses Repository enthält eine Sammlung von Anleitungen und Beispielen für die
 
 Folgen Sie den Anweisungen unten, um zu beginnen.
 
+## Systemanforderungen
+
+Bevor Sie Docker installieren, sollten Sie sicherstellen, dass Ihr System die folgenden Anforderungen erfüllt:
+
+- Ein 64-Bit-Betriebssystem
+- Mindestens 4 GB RAM
+- Mindestens 5 GB freier Festplattenspeicher
+- Eine CPU, die Virtualisierung unterstützt
+
+Es ist wichtig, dass diese Anforderungen erfüllt sind, da Docker intensive Ressourcen nutzt und eine Virtualisierungsumgebung benötigt, um Container zu erstellen und auszuführen. Wenn Sie nicht über ausreichend Ressourcen verfügen, kann dies zu Problemen bei der Nutzung von Docker führen.
+
 
 
 
