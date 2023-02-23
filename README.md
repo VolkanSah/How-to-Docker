@@ -22,8 +22,7 @@ Um Docker auf verschiedenen Betriebssystemen zu installieren, müssen Sie versch
 ### Ubuntu
 
 1. Aktualisiere die Liste der verfügbaren Pakete:
-// Hier kommt der Bash-Code hin
-sudo apt update
+`bash` sudo apt update
 
 2. Installiere die benötigten Pakete, um das Docker-Repository hinzuzufügen:
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
