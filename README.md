@@ -124,6 +124,33 @@ docker run hello-world
   
 Das Beispiel zeigt einen allgemeinen Überblick darüber, wie Sie Docker auf Windows installieren können. Bitte beachten Sie, dass je nach Ihrer spezifischen Konfiguration möglicherweise weitere Schritte erforderlich sind oder andere Anweisungen gelten können. Bitte lesen Sie die offizielle Docker-Dokumentation und stellen Sie sicher, dass Sie die neueste Version von Docker verwenden.
 
+## Vorteile von Container Systemen
+
+Plattformunabhängigkeit: Mit Docker können Anwendungen in Containern ausgeführt werden, die auf verschiedenen Betriebssystemen und Hardware-Plattformen funktionieren, was eine höhere Portabilität und Interoperabilität ermöglicht.
+
+Leichtgewichtig und skalierbar: Docker-Container sind leichtgewichtig und starten sehr schnell, wodurch sie eine skalierbare Lösung für die Bereitstellung von Anwendungen bieten.
+
+Isolierung und Sicherheit: Durch die Isolierung von Containern voneinander und vom Hostsystem ermöglicht Docker eine höhere Sicherheit und verhindert, dass Anwendungen sich gegenseitig beeinflussen oder das Hostsystem gefährden können.
+
+Einfache Verwaltung und Automatisierung: Docker bietet eine einfache Möglichkeit, Anwendungen in Containern zu verwalten und zu automatisieren, was die Bereitstellung von Anwendungen erleichtert und beschleunigt.
+
+Ökosystem und Community: Docker hat ein großes Ökosystem von Werkzeugen und Services, die auf Docker aufbauen, sowie eine aktive Community, die sich engagiert und Probleme löst.
+
+## Nachteile von Container Systemen
+
+Komplexität: Docker kann aufgrund seiner Komplexität und der vielen verfügbaren Funktionen schwierig zu erlernen und zu verwenden sein. Es kann eine gewisse Einarbeitungszeit erfordern, um Docker effektiv nutzen zu können.
+
+Größe von Containern: Docker-Container können aufgrund der benötigten Abhängigkeiten und Bibliotheken relativ groß werden, was zu längeren Startzeiten und höherem Speicherbedarf führen kann.
+
+Keine nativen GUIs: Docker verfügt nicht über nativen Support für grafische Benutzeroberflächen (GUIs). Entwickler müssen daher spezielle Tools verwenden, um Docker-Container zu verwalten und zu überwachen.
+
+Sicherheitsrisiken: Obwohl Docker Sicherheitsfunktionen wie Container-Isolierung und -Begrenzung bietet, kann es immer noch zu Sicherheitslücken und Angriffen kommen, insbesondere wenn Container unsachgemäß konfiguriert oder verwaltet werden.
+
+Eingeschränkte Unterstützung von Windows: Docker unterstützt Windows-Container nur auf bestimmten Windows-Versionen (Windows 10 Pro oder Enterprise 64-Bit) und erfordert die Verwendung von Hyper-V, was zu zusätzlicher Komplexität und höheren Anforderungen an die Hardware führen kann.
+
+Es ist wichtig zu beachten, dass diese Vor- & Nachteile je nach spezifischem Anwendungsfall unterschiedlich schwerwiegend sein können. Es ist daher ratsam, die Vor- und Nachteile von Docker sorgfältig abzuwägen und zu entscheiden, ob Docker die richtige Lösung für Ihre spezifischen Anforderungen ist.
+
+
 
 
 
