@@ -1,3 +1,16 @@
+# How to Docker
+
+Dieses Repository enthält eine Sammlung von Anleitungen und Beispielen für die Verwendung von Docker. Sie können Docker verwenden, um Anwendungen schnell und einfach in Containern zu erstellen, auszuführen und zu verwalten. Die Anleitungen und Beispiele in diesem Repository sind darauf ausgelegt, Ihnen den Einstieg in die Verwendung von Docker zu erleichtern.
+
+Folgen Sie den Anweisungen unten, um zu beginnen.
+
+
+
+
+
+----------------------
+Alter text
+
 # Vorteile und Nachteile von Container-Systemen wie Docker und Kubernetes
 
 Ein Container-Systeme wie Docker und Kubernetes speziell dafür entwickelt, um die Bereitstellung von Anwendungen und Diensten zu vereinfachen und zu optimieren. Sie ermöglichen es, Anwendungen und ihre Abhängigkeiten in einer einzigen "Container"-Einheit zu verpacken, die auf jedem System lauffähig ist, das das Container-System unterstützt.
