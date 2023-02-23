@@ -15,6 +15,85 @@ Bevor Sie Docker installieren, sollten Sie sicherstellen, dass Ihr System die fo
 
 Es ist wichtig, dass diese Anforderungen erfüllt sind, da Docker intensive Ressourcen nutzt und eine Virtualisierungsumgebung benötigt, um Container zu erstellen und auszuführen. Wenn Sie nicht über ausreichend Ressourcen verfügen, kann dies zu Problemen bei der Nutzung von Docker führen.
 
+## Installation von Docker
+
+Um Docker auf verschiedenen Betriebssystemen zu installieren, müssen Sie verschiedene Schritte ausführen. Im Folgenden finden Sie Anleitungen für Ubuntu und Debian.
+
+### Ubuntu
+
+1. Aktualisiere die Liste der verfügbaren Pakete:
+sudo apt update
+
+2. Installiere die benötigten Pakete, um das Docker-Repository hinzuzufügen:
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+
+3. Füge das Docker-Repository hinzu:
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+4. Aktualisiere die Liste der verfügbaren Pakete erneut:
+sudo apt update
+
+5. Installiere Docker:
+sudo apt install docker-ce
+
+6. Starte den Docker-Dienst:
+sudo systemctl start docker
+
+7. Verifiziere, dass Docker ordnungsgemäß installiert wurde, indem du den folgenden Befehl ausführst, der eine Begrüßungsnachricht von Docker anzeigen sollte:
+sudo docker run hello-world
+
+### Debian
+
+1. Aktualisiere die Liste der verfügbaren Pakete:
+sudo apt update
+
+2. Installiere die benötigten Pakete, um das Docker-Repository hinzuzufügen:
+sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common
+
+3. Füge das Docker-Repository hinzu:
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"
+
+4. Aktualisiere die Liste der verfügbaren Pakete erneut:
+sudo apt update
+
+5. Installiere Docker:
+sudo apt install docker-ce
+
+6. Starte den Docker-Dienst:
+sudo systemctl start docker
+
+7. Verifiziere, dass Docker ordnungsgemäß installiert wurde, indem du den folgenden Befehl ausführst, der eine Begrüßungsnachricht von Docker anzeigen sollte:
+sudo docker run hello-world
+
+### Arch-Linux
+1. Aktualisieren Sie die Liste der verfügbaren Pakete:
+sudo pacman -Syu
+
+2. Installieren Sie Docker:
+sudo pacman -S docker
+
+3. Starten Sie den Docker-Dienst:
+sudo systemctl start docker
+
+4. Aktivieren Sie den Docker-Dienst, damit Docker bei jedem Systemstart automatisch gestartet wird:
+sudo systemctl enable docker
+
+5. Verifizieren Sie, dass Docker ordnungsgemäß installiert wurde, indem Sie den folgenden Befehl ausführen, der eine Begrüßungsnachricht von Docker anzeigen sollte:
+sudo docker run hello-world
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
