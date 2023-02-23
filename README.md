@@ -22,7 +22,7 @@ Um Docker auf verschiedenen Betriebssystemen zu installieren, müssen Sie versch
 ### Ubuntu
 
 1. Aktualisiere die Liste der verfügbaren Pakete:
-`sudo apt update `
+sudo apt update
 
 2. Installiere die benötigten Pakete, um das Docker-Repository hinzuzufügen:
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
@@ -149,6 +149,7 @@ Sicherheitsrisiken: Obwohl Docker Sicherheitsfunktionen wie Container-Isolierung
 Eingeschränkte Unterstützung von Windows: Docker unterstützt Windows-Container nur auf bestimmten Windows-Versionen (Windows 10 Pro oder Enterprise 64-Bit) und erfordert die Verwendung von Hyper-V, was zu zusätzlicher Komplexität und höheren Anforderungen an die Hardware führen kann.
 
 Es ist wichtig zu beachten, dass diese Vor- & Nachteile je nach spezifischem Anwendungsfall unterschiedlich schwerwiegend sein können. Es ist daher ratsam, die Vor- und Nachteile von Docker sorgfältig abzuwägen und zu entscheiden, ob Docker die richtige Lösung für Ihre spezifischen Anforderungen ist.
+By Volkan Kücükbudak
 
 
 
