@@ -1,4 +1,4 @@
-#Vorteile und Nachteile von Container-Systemen wie Docker und Kubernetes
+# Vorteile und Nachteile von Container-Systemen wie Docker und Kubernetes
 
 Ein Container-Systeme wie Docker und Kubernetes speziell dafür entwickelt, um die Bereitstellung von Anwendungen und Diensten zu vereinfachen und zu optimieren. Sie ermöglichen es, Anwendungen und ihre Abhängigkeiten in einer einzigen "Container"-Einheit zu verpacken, die auf jedem System lauffähig ist, das das Container-System unterstützt.
 Einige der Vorteile von Container-Systemen sind:
